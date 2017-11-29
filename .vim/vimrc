@@ -1,6 +1,6 @@
 inoremap jj <Esc>
-set rnu
 set incsearch
+set number
 
 " Pathogen for plugins
 " https://github.com/tpope/vim-pathogen
@@ -8,3 +8,8 @@ execute pathogen#infect()
 
 syntax on
 filetype plugin indent on
+
+" 4 spaces instead of tabs
+set tabstop=4
+set shiftwidth=4
+set expandtab
