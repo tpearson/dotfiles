@@ -28,9 +28,6 @@ nnoremap <C-H> <C-W><C-H>
 " show the cursor position all the time
 set ruler
 
-" Display extra whitespace
-set list listchars=tab:Â»Â·,trail:Â·,nbsp:Â·
-
 " Use one space, not two, after punctuation.
 set nojoinspaces
 
