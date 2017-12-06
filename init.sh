@@ -1,4 +1,5 @@
 #!/bin/sh
 dir=$(pwd)
-ln -s "$dir/vim" ~/.vim
-ln -s "$dir/tmux.conf" ~/.tmux.conf
+ln -fs "$dir/vim" ~/.vim
+ln -fs "$dir/tmux.conf" ~/.tmux.conf
+ln -fs "$dir/gitconfig" ~/.gitconfig
