@@ -8,6 +8,7 @@
 [alias]
         co = checkout
         st = status
+        fix = commit --amend --no-edit
 [branch]
         autoSetupRebase = always
 [push]
