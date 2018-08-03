@@ -1,0 +1,15 @@
+[user]
+        name = Tyler Pearson
+        email = tpearson@gmail.com
+[color]
+        status = auto
+        branch = auto
+        diff = auto
+[alias]
+        co = checkout
+        st = status
+        fix = commit --amend --no-edit
+[branch]
+        autoSetupRebase = always
+[push]
+        default = simple
