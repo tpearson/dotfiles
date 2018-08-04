@@ -40,3 +40,11 @@ nnoremap <Left> :echoe "Use h"<CR>
 nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up> :echoe "Use k"<CR>
 nnoremap <Down> :echoe "Use j"<CR>
+
+" Use <leader>f to toggle NERDTree
+nnoremap <Leader>f :NERDTreeToggle<Enter>
+" Use <leader>v to open NERDTree on the current file
+nnoremap <silent> <Leader>v :NERDTreeFind<CR>
+" Use a better NERDTree UI
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
