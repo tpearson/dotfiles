@@ -48,3 +48,9 @@ nnoremap <silent> <Leader>v :NERDTreeFind<CR>
 " Use a better NERDTree UI
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
+let g:NERDTreeDirArrowExpandable = '>'
+let g:NERDTreeDirArrowCollapsible = 'v'
+
+" Open new splits to the right and below since it's more natural
+set splitbelow
+set splitright
