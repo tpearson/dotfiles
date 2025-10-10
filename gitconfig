@@ -12,4 +12,12 @@
 [branch]
         autoSetupRebase = always
 [push]
-        default = simple
+    default = simple
+    autoSetupRemote = true
+[rebase]
+        autostash = true
+[merge]
+        conflictstyle = diff3
+[diff]
+        colorMoved = dimmed-zebra
+        color-moved-ws = ignore-all-space
