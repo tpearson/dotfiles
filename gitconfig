@@ -1,23 +1,29 @@
 [user]
-        name = Tyler Pearson
-        email = tpearson@gmail.com
+    name = Tyler Pearson
+    email = tpearson@gmail.com
 [color]
-        status = auto
-        branch = auto
-        diff = auto
+    status = auto
+    branch = auto
+    diff = auto
 [alias]
-        co = checkout
-        st = status
-        fix = commit --amend --no-edit
+    co = checkout
+    st = status
+    fix = commit --amend --no-edit
 [branch]
-        autoSetupRebase = always
+    autoSetupRebase = always
 [push]
     default = simple
     autoSetupRemote = true
+[pull]
+    rebase = true
 [rebase]
-        autostash = true
+    autoSquash = true
+    autoStash = true
 [merge]
-        conflictstyle = diff3
+    conflictstyle = diff3
 [diff]
-        colorMoved = dimmed-zebra
-        color-moved-ws = ignore-all-space
+    colorMoved = dimmed-zebra
+    color-moved-ws = ignore-all-space
+[rerere]
+    enabled = true
+    autoUpdate = true
